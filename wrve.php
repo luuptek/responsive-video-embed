@@ -1,11 +1,10 @@
 <?php
 /**
  * Plugin Name: Responsive video embed
- * Plugin URI: http://twitter.com/lepileppanen
  * Description: Embed videos to your content responsively.
- * Version: 0.3
- * Author: Timo Leppänen
- * Author URI: https://wordpress.org/support/profile/lepileppanen
+ * Version: 0.3.1
+ * Author: Luuptek
+ * Author URI: https:/www.luuptek.fi
  * License: GPLv2
  */
 
