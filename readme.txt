@@ -24,7 +24,7 @@ It is possible to create responsive video embed by:
 
 src = URL of the embedded video
 
-ratio = either '16by9' or '4by3' (optional), 16by9 is by default
+ratio = either '16by9' / '4by3' / '21by9' / '1by1' (optional), 16by9 is by default
 
 3) Using the shortcode automatically by clicking on Embed video button and typing in video embed URL and selecting aspect ratio.
 
