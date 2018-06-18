@@ -3,8 +3,8 @@ Contributors: lepileppanen, luuptek
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PNMLVEYW3MXWS
 Tags: video, embed, responsive, youtube, vimeo, shortcode
 Requires at least: 3.0.1
-Tested up to: 4.9.4
-Stable tag: 0.3.1
+Tested up to: 4.9.6
+Stable tag: 0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -42,6 +42,10 @@ ratio = either '16by9' or '4by3' (optional), 16by9 is by default
 Nothing here yet.
 
 == Changelog ==
+
+= 0.4 =
+* Change to Bootstrap 4
+* Support for additional aspect ratios
 
 = 0.3 =
 * Support for allowfullscreen
