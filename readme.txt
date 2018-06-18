@@ -44,8 +44,8 @@ Nothing here yet.
 == Changelog ==
 
 = 0.4 =
-* Change to Bootstrap 4
-* Support for additional aspect ratios
+* Change to Bootstrap 4 in css
+* Support for additional aspect ratios: 21by9 and 1by1
 
 = 0.3 =
 * Support for allowfullscreen
