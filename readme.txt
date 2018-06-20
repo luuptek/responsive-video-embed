@@ -43,7 +43,7 @@ Nothing here yet.
 
 == Changelog ==
 
-= 0.4 =
+= 0.4.1 =
 * Create specific naming for css (fix the possible errors with Bootstrap 3 sites)
 
 = 0.4 =
