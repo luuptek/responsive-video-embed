@@ -44,6 +44,9 @@ Nothing here yet.
 == Changelog ==
 
 = 0.4 =
+* Create specific naming for css (fix the possible errors with Bootstrap 3 sites)
+
+= 0.4 =
 * Change to Bootstrap 4 in css
 * Support for additional aspect ratios: 21by9 and 1by1
 
