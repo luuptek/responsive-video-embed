@@ -1,4 +1,4 @@
-.embed-responsive {
+.rve-embed-responsive {
   position: relative;
   display: block;
   width: 100%;
@@ -6,16 +6,16 @@
   overflow: hidden;
 }
 
-.embed-responsive::before {
+.rve-embed-responsive::before {
   display: block;
   content: "";
 }
 
-.embed-responsive .embed-responsive-item,
-.embed-responsive iframe,
-.embed-responsive embed,
-.embed-responsive object,
-.embed-responsive video {
+.rve-embed-responsive .embed-responsive-item,
+.rve-embed-responsive iframe,
+.rve-embed-responsive embed,
+.rve-embed-responsive object,
+.rve-embed-responsive video {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -25,18 +25,18 @@
   border: 0;
 }
 
-.embed-responsive-21by9::before {
+.rve-embed-responsive-21by9::before {
   padding-top: 42.857143%;
 }
 
-.embed-responsive-16by9::before {
+.rve-embed-responsive-16by9::before {
   padding-top: 56.25%;
 }
 
-.embed-responsive-4by3::before {
+.rve-embed-responsive-4by3::before {
   padding-top: 75%;
 }
 
-.embed-responsive-1by1::before {
+.rve-embed-responsive-1by1::before {
   padding-top: 100%;
 }

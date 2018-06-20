@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Responsive video embed
  * Description: Embed videos to your content responsively.
- * Version: 0.4
+ * Version: 0.4.1
  * Author: Luuptek
  * Author URI: https:/www.luuptek.fi
  * License: GPLv2
@@ -58,8 +58,8 @@ class Rve {
 		$markUp = '';
 
 		$markUp = <<<EOT
-		<div class="embed-responsive embed-responsive-${ratio}">
-			<iframe class="embed-responsive-item" src="${src}" allowfullscreen></iframe>
+		<div class="rve-embed-responsive rve-embed-responsive-${ratio}">
+			<iframe class="rve-embed-responsive-item" src="${src}" allowfullscreen></iframe>
 		</div>
 EOT;
 
@@ -97,7 +97,7 @@ EOT;
 	 * Function to wrap video into embed-container
 	 */
 	function registerEmbedHtml( $html, $url, $attr, $post_id ) {
-		return '<div class="embed-responsive embed-responsive-16by9">' . $html . '</div>';
+		return '<div class="rve-embed-responsive rve-embed-responsive-16by9">' . $html . '</div>';
 	}
 
 }
