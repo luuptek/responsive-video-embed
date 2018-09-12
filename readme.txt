@@ -3,8 +3,8 @@ Contributors: lepileppanen, luuptek
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PNMLVEYW3MXWS
 Tags: video, embed, responsive, youtube, vimeo, shortcode
 Requires at least: 3.0.1
-Tested up to: 4.9.6
-Stable tag: 0.4.1
+Tested up to: 4.9.8
+Stable tag: 0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -42,6 +42,11 @@ ratio = either '16by9' / '4by3' / '21by9' / '1by1' (optional), 16by9 is by defau
 Nothing here yet.
 
 == Changelog ==
+
+= 0.5 =
+* Add translations support
+* Add Finnish as first translation
+* Modify function names
 
 = 0.4.1 =
 * Create specific naming for css (fix the possible errors with Bootstrap 3 sites)
