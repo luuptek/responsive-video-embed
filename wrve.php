@@ -72,8 +72,8 @@ class Rve {
 	 * Create the actual shortcode
 	 */
 	public function embed_shortcode( $atts, $content = null ) {
-		$src    = isset( $atts['src'] ) ? $atts['src'] : '';
-		$ratio  = isset( $atts['ratio'] ) && ( $atts['ratio'] == '16by9' || $atts['ratio'] == '4by3' || $atts['ratio'] == '21by9' || $atts['ratio'] == '1by1' ) ? $atts['ratio'] : '16by9';
+		$src    = isset( $atts['src'] ) ? esc_url( $atts['src'] ) : '';
+		$ratio  = isset( $atts['ratio'] ) && ( $atts['ratio'] == '16by9' || $atts['ratio'] == '4by3' || $atts['ratio'] == '21by9' || $atts['ratio'] == '1by1' ) ? esc_attr( $atts['ratio'] ) : '16by9';
 		$markUp = '';
 
 		$markUp = <<<EOT
