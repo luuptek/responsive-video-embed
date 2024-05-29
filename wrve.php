@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Responsive video embed
  * Description: Embed videos to your content responsively.
- * Version: 0.5
+ * Version: 0.5.1
  * Author: Luuptek
  * Author URI: https://www.luuptek.fi
  * License: GPLv2
