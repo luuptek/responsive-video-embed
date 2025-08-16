@@ -3,8 +3,8 @@ Contributors: lepileppanen, luuptek
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PNMLVEYW3MXWS
 Tags: video, embed, responsive, youtube, vimeo, shortcode
 Requires at least: 3.0.1
-Tested up to: 6.5
-Stable tag: 0.5.1
+Tested up to: 6.8
+Stable tag: 0.5.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,7 +31,7 @@ ratio = either '16by9' / '4by3' / '21by9' / '1by1' (optional), 16by9 is by defau
 == Installation ==
 
 1. Download the plugin. Activate via Plugin-settings.
-2. Use the plugin as descripbed in the description.
+2. Use the plugin as described in the description.
 
  == Screenshots ==
 
@@ -42,6 +42,9 @@ ratio = either '16by9' / '4by3' / '21by9' / '1by1' (optional), 16by9 is by defau
 Nothing here yet.
 
 == Changelog ==
+
+= 0.5.2 =
+* PHP8 related fix for deprecation notice
 
 = 0.5.1 =
 * Escape shortcode attributes
