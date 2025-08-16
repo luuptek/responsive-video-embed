@@ -1,7 +1,7 @@
 === Responsive video embed ===
 Contributors: lepileppanen, luuptek
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PNMLVEYW3MXWS
-Tags: video, embed, responsive, youtube, vimeo, shortcode
+Tags: video, embed, responsive, youtube, vimeo
 Requires at least: 3.0.1
 Tested up to: 6.8
 Stable tag: 0.5.2
